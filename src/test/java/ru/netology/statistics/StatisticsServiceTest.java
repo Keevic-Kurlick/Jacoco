@@ -47,7 +47,7 @@ public class StatisticsServiceTest {
         StatisticsService service = new StatisticsService();
 
         long[] incomesInBillions = {-100, -20};
-        long expected = -20;g
+        long expected = -20;
 
         long actual = service.findMax(incomesInBillions);
 
